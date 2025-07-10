@@ -3,19 +3,19 @@
 require_relative "lib/raix/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "raix"
+  spec.name = "raix-openai-eight"
   spec.version = Raix::VERSION
-  spec.authors = ["Obie Fernandez"]
-  spec.email = ["obiefernandez@gmail.com"]
+  spec.authors = ["Paulo Arruda"]
+  spec.email = ["parrudaj@gmail.com"]
 
   spec.summary = "Ruby AI eXtensions"
-  spec.homepage = "https://github.com/OlympiaAI/raix"
+  spec.homepage = "https://github.com/parrudaj/raix-openai-eight"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.2.2"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/OlympiaAI/raix"
-  spec.metadata["changelog_uri"] = "https://github.com/OlympiaAI/raix/blob/main/CHANGELOG.md"
+  spec.metadata["source_code_uri"] = "https://github.com/parrudaj/raix-openai-eight"
+  spec.metadata["changelog_uri"] = "https://github.com/parrudaj/raix-openai-eight/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
@@ -32,5 +32,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "faraday-retry", "~> 2.0"
   spec.add_dependency "open_router", "~> 0.2"
   spec.add_dependency "ostruct"
-  spec.add_dependency "ruby-openai", "~> 7"
+  spec.add_dependency "ruby-openai", "~> 8.1"
 end
